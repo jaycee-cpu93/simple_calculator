@@ -24,11 +24,11 @@ window.addEventListener( "click", (e) => {
 
 
     if (e.target.textContent == "P"){
-    operands = [ parseInt(input_top.value) ]
+     operands = [ parseInt(input_top.value) ]
     }
             
     if(e.target.textContent == '='){
-    console.log("The final answers")
+     console.log("The final answers")
     let operandOne = parseInt(operands[0])
     let operandTwo = parseInt(operands[2])
     
@@ -74,6 +74,4 @@ window.addEventListener( "click", (e) => {
     }
 
 
-    function division (a, b){
-        return a / b
-    }
+    
