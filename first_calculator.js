@@ -1,4 +1,4 @@
-let operand = []
+let operands = []
 
     window.addEventListener( "click", (e) => {
         // console.log(e)
