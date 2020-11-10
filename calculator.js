@@ -73,7 +73,7 @@ let operand = []
     }
 
     function multiplication (a, b){
-        return a * b
+        return a * b; 
     }
 
 
